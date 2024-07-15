@@ -9,7 +9,7 @@ public class Function
 
     public void Run()
     {
-        Console.WriteLine(Add(10, 20));
-        Console.WriteLine(Add(5, Add(1, 2)));
+        Console.WriteLine(Add(10, 20)); // -> 30
+        Console.WriteLine(Add(5, Add(1, 2))); // -> 8
     }
 }
